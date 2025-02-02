@@ -39,7 +39,7 @@ function stopPattern() {
     if (JSON.stringify(drawnPattern) === JSON.stringify(correctPattern)) {
         window.location.href = "unlocked.html"; // Redirect if pattern is correct
     } else {
-        alert("Mali, tanga mo talaga!.");
+        alert("Mali, tanga mo talaga!");
         resetPattern();
     }
 }
